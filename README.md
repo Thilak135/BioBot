@@ -1,17 +1,33 @@
-### Hi All
-This is RAG based chat assistant application that uses PubMedQA dataset using chainlit.
+### BioBot
 
-###How to Run
-Kindly follow the instructions below for running the project.
-You should have a huggingface access toke with read access and gemini api key.
+Welcome to RAG Assist! It's a chat assistant that helps with biomedical questions, powered by the PubMedQA dataset. Here's how to get started:
 
-1. Run create_csv_data.py
-2. Run create_text_data.py
-3. Run ingest.py
-4. Run chainlit run app.py in cli
+## How to Run
 
-### Techstack Used
-1. Chainlit
-2. Gemini
-3. Nominic-AI text embedding model
-4. Chroma Database
+1. **Get Access Tokens**: Make sure you have a Hugging Face access token with read access and a Gemini API key.
+   
+2. **Prepare Data**:
+    - Run `create_csv_data.py`.
+    - Run `create_text_data.py`.
+
+3. **Ingest Data**:
+    - Use `ingest.py` to put the data into the app.
+
+4. **Launch the App**:
+    - Run `chainlit run app.py` in your terminal.
+
+## Tech Stack
+
+BioBot uses cool tech like Chainlit, Gemini, Nominic-AI, and Chroma Database.
+
+## Contributions
+
+Feel free to contribute! Fork the repo, make changes, and submit pull requests.
+
+## Feedback and Support
+
+If you have issues or ideas, let us know.
+
+
+---
+
