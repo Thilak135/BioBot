@@ -18,7 +18,7 @@ Welcome to RAG Assist! It's a chat assistant that helps with biomedical question
 
 ## Tech Stack
 
-BioBot uses cool tech like Chainlit, Gemini, Nominic-AI, and Chroma Database.
+BioBot uses Chainlit, Gemini, Nominic-AI, and Chroma Database.
 
 ## Contributions
 
